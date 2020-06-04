@@ -189,7 +189,7 @@
     width: 30px;
     height: 60px;
 
-    content: url(/img/dot.png);
+    content: url(../img/dot.png);
     text-align: center;
 
     opacity: .25;
@@ -201,5 +201,5 @@
 .slick-dots li.slick-active button:before
 {
     opacity: .75;
-    content: url(/img/active_dot.png);
+    content: url(../img/active_dot.png);
 }
