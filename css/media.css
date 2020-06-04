@@ -1,0 +1,147 @@
+@media (min-width: 992px) {
+  .work {
+    height: 710px;
+  }
+  .works div img {
+    width: 240px;
+  }
+}
+@media (max-width: 1200px) {
+  .work {
+    height: 810px;
+  }
+  .works div img {
+    width: 240px;
+  }
+  footer{
+    height: 430px;
+}
+}
+
+@media (max-width: 990px) {
+  .work {
+    height: 1000px;
+  }
+  .works div img {
+    width: 240px;
+  }
+  footer{
+    height: 730px;
+}
+}
+
+@media (min-width: 768px) {
+  .header_main {
+    margin-top: 70px;
+  }
+  .about {
+    height: 500px;
+  }
+  .about_team {
+    height: 1100px;
+  }
+  .teams div {
+    margin-top: 20px;
+  }
+  .works div img {
+    width: 240px;
+  }
+  .note {
+    height: 650px;
+  }
+  .left_block,.right_block{
+      width: 47%;
+  }
+}
+
+@media (max-width: 768px) {
+  .header_main {
+    margin-top: 70px;
+  }
+  header .btn-outline-primary {
+    margin: 50px 0 50px 0;
+  }
+  .about {
+    height: 600px;
+  }
+  .teams div {
+    margin-top: 20px;
+  }
+  .about .content {
+    display: flex;
+    justify-content: center;
+  }
+  .about_team {
+    height: 1100px;
+  }
+  .nav_hidden {
+    display: block;
+    position: absolute;
+    z-index: 9999;
+  }
+  .nav_hidden a {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .nav_claim {
+    display: none;
+  }
+  .work {
+    height: 1050px;
+  }
+  .works div img {
+    width: 230px;
+  }
+  .note{
+    height: 650px;
+}
+.form{
+    height: 1050px;
+}
+footer{
+    height: 850px;
+}
+}
+
+@media (max-width: 686px) {
+  .work {
+    height: 1050px;
+  }
+  .works div img {
+    width: 210px;
+  }
+}
+@media (max-width: 575px) {
+  header nav {
+    display: flex;
+    justify-content: space-around;
+  }
+  .about_team {
+    height: 1800px;
+  }
+  .about {
+    height: 700px;
+  }
+  .work {
+    height: 1350px;
+  }
+
+  .works div img {
+    width: 230px;
+  }
+}
+@media (max-width: 460px) {
+  .work {
+    height: 1250px;
+  }
+  .works div img {
+    width: 200px;
+  }
+  .note{
+    height: 700px;
+}
+footer{
+    height: 950px;
+}
+}
