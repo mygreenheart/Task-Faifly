@@ -1,0 +1,38 @@
+#chart {
+  margin: 50px;
+  height: 500px;
+  width: 900px;
+}
+#x-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  padding: 0;
+}
+.col-10 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#y-line {
+  width: 20px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+}
+#y-line div {
+  height: 30px;
+  width: 30px;
+}
+#x-line div {
+  height: 30px;
+  width: 30px;
+}
+#content {
+}
+#content div {
+  height: 30px;
+  padding-left: 0;
+  padding-right: 0;
+}
